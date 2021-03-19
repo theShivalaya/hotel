@@ -1,0 +1,43 @@
+.homereview{
+    position: relative;
+    top:450px;
+}
+.homeMain{
+    position: relative;
+    top:80px;
+}
+.homeactivities{
+    position: relative;
+    top:400px;
+}
+.homeotheractivities{
+    position: relative;
+    top:400px;
+}
+.homeFooter{
+    position: relative;
+    top:400px;
+}
+
+@media (max-width: 700px) {
+    .homereview{
+        position: relative;
+        top:1100px;
+    }
+    .homeMain{
+        position: relative;
+        top:80px;
+    }
+    .homeactivities{
+        position: relative;
+        top:1000px;
+    }
+    .homeotheractivities{
+        position: relative;
+        top:1000px;
+    }
+    .homeFooter{
+        position: relative;
+        top:1000px;
+    }
+}

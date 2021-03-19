@@ -1,0 +1,11 @@
+.activitiesMain{
+    position: relative;
+    top:80px;
+    margin-bottom: 30px;
+}
+@media (max-width: 700px) {
+    .activitiesMain{
+        top:50px;
+        margin-bottom: 50px;
+    }
+}

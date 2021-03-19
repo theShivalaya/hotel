@@ -1,0 +1,27 @@
+.upperHeader {
+    position: relative;
+    min-height: 157px;
+    max-height: 157px;
+    width: 100vw;
+    display: grid;
+    text-align: start;
+    grid-template-areas: "nav";
+    /* Cosmetics */
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  .content{
+      font-family: 'Luckiest Guy', cursive;
+      font-size:40px;
+  }
+  .content span{
+      color: #f84c50;
+  }
+  @media (max-width: 700px) {
+    .upperHeader{
+        display: none;
+    }
+    }

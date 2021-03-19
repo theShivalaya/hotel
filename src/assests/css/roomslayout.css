@@ -1,0 +1,158 @@
+.lrooms{
+    width: 85%;
+    margin: auto;
+    max-height:auto;
+    display:flex;
+    margin-bottom: 20px;
+    flex-direction: column;
+}
+.lroomsfirst{
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    background: #0A223D;
+    max-height: 179px;
+    padding:20px ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: 'Mulish',sans-serif;
+}
+.lroomsfirst>img{
+    border-radius: 10px;
+    height: 125px;
+    width:209px;
+    margin-right: 5%;
+    margin-left: 2%;
+}
+.lroomType{
+    color: #fff;
+    font-family: 'Mulish',sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+.lroomName,.lroomSizeOuter,.lroomIcon{
+    margin-bottom: 5px;
+}
+
+.lroomSizeOuter{
+    font-size: 12px;
+}
+.lroomPriceOuter{
+    display: flex;
+    align-self: flex-end;
+    margin-left: auto;
+    color: #fff;
+    margin-bottom: 1%;
+    margin-right: 3%;
+}
+.lroomsecond{
+    display: flex;
+    border-left: 0.5px solid #949494;
+    border-bottom:0.5px solid #949494;
+    background:radial-gradient(97.69% 657.01% at 0.88% 46.05%, rgba(243, 243, 243, 0.18) 0%, rgba(243, 243, 243, 0) 100%);
+    border-right:0.5px solid #949494;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    backdrop-filter: blur(12px);
+    padding: 20px;
+    padding-top: 10px;
+    flex-direction: column;
+    z-index: 999;
+
+}
+.lroomContent{
+    display: flex;
+    font-family: 'Mulish',sans-serif;
+    font-size: 14px;
+    width: 100%;
+    text-align: justify;
+}
+.lroomsecHead{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.lroomContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.lroomListFirst,.lroomListSecond{
+    display: flex;
+    flex-direction: column;
+}
+.lroomListFirst>div,.lroomListSecond>div{
+    display: flex;
+    margin:5px;
+    align-items: center;
+    justify-content: flex-start;
+}
+.lroomListFirst>div>img,.lroomListSecond>div>img{
+    width: 20px;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+.lroomListSecond{
+    padding-left: 20%;
+}
+.lroomListThird{
+    display: flex;
+    margin-left: auto;
+    align-items: flex-end;
+}
+.roombtn{
+    margin:2%;
+    margin-right: 40px;
+    min-width: 120px;
+    background: #fff;
+    outline: none;
+    border: 1px solid #0A223D;
+    padding:5px 10px !important;
+    border-radius: 4px;
+    color: #0A223D;
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    box-sizing: unset;
+    cursor: pointer;
+}
+@media (max-width: 700px) {
+    .lrooms{
+        max-height:auto;
+        display:flex;
+        margin-bottom: 20px;
+        flex-direction: column;
+    }
+    .lroomsfirst{
+        flex-direction: column;
+        max-height: 270px;
+        align-items: flex-start;
+        padding-left: 30px;
+    }
+    .lroomType{
+        margin-top: 20px;
+    }
+    .lroomPriceOuter{
+        margin-top: 20px;
+    }
+    .lroomsfirst>img{
+        margin-left: 0%;
+        margin-right:0% ;
+        margin-right: auto;
+    }
+    .lroomContent {
+        display: flex;
+        width: 100%;
+        text-align: justify;
+    }
+    .lroomContainer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .lroomListSecond {
+        padding-left: 0%;
+    }
+    .roombtn{
+    margin: auto;
+    }
+}

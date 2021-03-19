@@ -1,0 +1,193 @@
+.roomBookSecondContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    margin: auto;
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+    background: rgba(243, 243, 243, 0.3);
+    border: 1px solid #949494;
+    border-top: none;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    box-sizing: border-box;
+    }
+.roomBookSecondContainerFirst{
+    display: flex;
+    flex-direction: row;
+}
+.roomBookSecondContainerOuter{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-between;
+    width: 65%;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+.roomBookSecondContainerOuter> *{
+   margin-top: 5%;
+   width: 100%;
+   border-radius:4px ;
+   border: 1px solid #CCD4D8;
+   
+}
+.roomBookSecondInput{
+    height: 36px;
+    /* padding-left: 5%; */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    padding-left: 5%;
+    line-height: 16px;
+    width:100%;
+}
+.roomBookSecondEmail,.roomBookSecondPhone{
+    width: 40%;
+}
+.roomBookSecondContent{
+    background: #E5F1E0;
+    color: #A7B193; 
+    padding: 15px;
+    display: flex;
+    align-items: justify;
+    border-radius: 8px;
+}
+.roomBookSecondContainerSecond{
+    padding-left:5% ;
+}
+.roomBookSecondName{
+    margin-top: 0px;
+}
+.roomBookSecondCheckIn{
+    border-top: 1.5px dashed #AFAFAF;
+    border-bottom: 1.5px dashed #AFAFAF;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 7%;
+    padding-top: 2%;
+    padding-bottom: 4%;
+    margin-bottom: 4%;
+    align-items: center;
+}
+.roomBookSecondCheckInFirst{
+    border-right: 1.5px dashed #AFAFAF;
+    margin-left: 10%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.roomBookSecondCheckInSecond{
+    width: 40%;
+    padding-left: 10%;
+}
+.roomBookSecondFacilities{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-bottom: 4%;
+    margin-bottom: 4%;
+    align-items: center;
+}
+.roomBookSecondFacilitiesFirst{
+    width: 100%;
+    padding-left: 10%;
+}
+.roomBookSecondFacilitiesSecond{
+    margin-left: 10%;
+}
+.roomBookSecondTotalBox{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    margin-top: 10%;
+}
+.roomBookSecondTotalBoxSecond{
+    display: flex;
+    width: 87%;
+    flex-direction: column;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 5%;
+}
+.roomBookSecondTotalBoxSecondFirst,.roomBookSecondTotalBoxSecondSecond{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+}
+.roomBookFirstSecond,.roomBookFirstThird,.roomBookFirstFourth,.roomBookFirstFifth{
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 3%;
+}
+.roomBookSecondTotalBoxFirst{
+    width: 13%;
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: row;
+}
+.roomBookSecondTotalBoxFirst>img{
+    height: 34px;
+    margin-right: 10%;
+    margin-top: 10%;
+}
+.roomBookFirstFourth{
+    padding-bottom:5% ;
+    border-bottom: 1px dashed #555555;
+}
+.payNowBtn{
+    width: 25%;
+    margin-left: auto;
+    margin-right: 5%;
+    padding:2%;
+    background: #EC1F46;
+    border-radius: 4.64516px;
+    color: #fff;
+}
+.paymentsMethods{
+    display: flex;
+    margin-top: 3% ;
+    align-items: center;
+    justify-content: center;
+}
+.paymentsMethods>img{
+    margin-right: 5px;
+}
+@media (max-width: 700px) {
+    .roomBookSecondContainerFirst{
+        flex-direction: column;
+    }
+    .roomBookSecondContainerOuter{
+        margin-top: 5%;
+        width: 90%;
+    }
+    .roomBookSecondTotalBoxSecond {
+        width: 90%;
+    }
+    .roomBookSecondTotalBoxFirst>img {
+        height: 20px;
+    }.roomBookSecondTotalBoxFirst {
+        width: 10%;
+    }
+    .roomBookFirstSecond, .roomBookFirstThird, .roomBookFirstFourth, .roomBookFirstFifth {
+        width: 95%;
+    }
+    .roomBookSecondContainerSecond {
+        width: 90%;
+        margin-top: 5%;
+    }
+    .roomBookSecondEmail, .roomBookSecondPhone {
+        width: 100%;
+    }
+
+}

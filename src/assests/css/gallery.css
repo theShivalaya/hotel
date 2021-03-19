@@ -1,0 +1,80 @@
+.gallery{
+    position: relative;
+    top:80px; 
+    padding: 5%;
+    margin-bottom: 220px;
+    display: flex;
+    flex-direction: column;
+}
+.gfirstrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.gsecondrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.gthirdrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.gfourthrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.gsecondrow >img,.gthirdrow >img, .gfourthrow >img {
+    margin: 25px;
+    border-radius: 10px;
+    transition: all .3s ease-in-out;
+}
+ .gfirstrow>img{
+     margin-right:10px;
+     border-radius: 10px;
+     margin-bottom: 20px;
+     transition: all .3s ease-in-out;
+ }
+ .photocontent{
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+ }
+ .photocontent >span{
+     display: block
+ }
+ .red{
+     color: #EC1F46;
+ }
+ .gsecondrow >img:hover,.gthirdrow >img:hover, .gfourthrow >img:hover, .gfirstrow>img:hover{
+     transform: scale(1.1);
+ }
+@media (max-width: 700px) {
+    .gallery{
+        top:90px;
+        margin-bottom:200px ;
+    }
+    .gfirstrow,.gsecondrow,.gthirdrow,.gfourthrow{
+        display: block;
+    }
+    .gfirstrow >img {
+       display: none;
+    }
+    .gsecondrow >img,.gthirdrow >img, .gfourthrow >img {
+       margin: auto;
+       width: 90vw;
+       margin-top:15px;
+
+    }
+    .photocontent{
+        margin-left: 25px;
+    }
+
+}

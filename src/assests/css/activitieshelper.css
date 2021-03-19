@@ -1,0 +1,75 @@
+.activities{
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+}
+.innerdiv{
+    width: 100%;
+}
+.heading{
+    display: flex;
+    background-color: #0A223D;
+    border-top-left-radius:15px;
+    border-top-right-radius: 15px;
+    padding: 20px;
+    font-family: 'Mulish', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #fff;
+}
+.container{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #F5FAFE;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.container>div{
+    min-height: 50px;
+}
+.red{
+    color: #EC1F46
+}
+.firstcol,.secondcol,.thirdcol{
+    width: 33%;
+}
+.firstcol>div,.secondcol>div,.thirdcol>div{
+    display: flex;
+    font-family: 'Mulish',sans-serif;
+    font-size: 18px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.actIcon,.acthead{
+    margin: 3%;
+}
+.actIcon{
+    margin-right: 5%;
+}
+.acthead{
+    margin-top: 6%;
+    margin-bottom: 6%;
+    font-weight: 700;
+}
+@media (max-width: 700px) {
+    .activities{
+        position: relative;
+        top:90px; 
+        margin-bottom: 90px;
+    }
+    .container{
+    flex-direction: column;
+    margin:auto;
+    margin-bottom: 40px;
+    justify-content: center;
+    }
+    .firstcol,.secondcol,.thirdcol{
+        width: 80%;
+        margin: auto 10%;
+    }
+
+}

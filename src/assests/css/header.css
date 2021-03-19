@@ -1,0 +1,134 @@
+.Header {
+    position: absolute;
+    top: 157px; 
+    min-height: 80px;
+    max-height: 80px;
+    width: 100vw;
+    display: grid;
+    text-align: start;
+    grid-template-areas: "nav";
+    /* Cosmetics */
+    background-color: #0A223D
+    ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  /* .Logo {
+    grid-area: logo;
+    height: 70px;
+  } */
+  
+  .Nav {
+    display: grid;
+    grid-area: nav;
+    grid-template-columns: repeat(6, auto);
+    align-items:stretch;
+    text-align: center;
+    justify-items: center;
+  }
+  .Nav a {
+    display: flex;
+    text-transform: uppercase;
+    padding: 0 30px;
+    border-radius: 20px;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: 0.5s;
+    text-decoration: none;
+    font-family: 'Mulish', sans-serif;
+  }
+  .Nav .last{
+      padding-right: 10px;
+  }
+  .Nav a:hover {
+    /* background:#fff; */
+    background: #e9edef2e;
+    background-blend-mode:lighten;
+    transform: scale(1.2);
+  }
+  .active{
+    background: #e9edef2e;
+    background-blend-mode:lighten;
+  }
+  .phone{
+      display: none;
+      padding: 0 20px;
+      justify-self: start;
+      grid-area: phone;
+      font-family: 'Luckiest Guy', cursive;
+  }  
+  .Burger {
+    display: none;
+    grid-area: burger;
+    margin: 0 20px 0 0;
+    padding: 0 ;
+    padding-top:10px;
+    justify-self: end;
+    font-size: 40px;
+    border: none;
+    background: none;
+    outline: none;
+    transition: 0.1s;
+  }
+  .Burger:active {
+    transform: scale(1.2);
+  }
+  
+  @media (max-width: 700px) {
+    .Header {
+      grid-template-areas: "phone burger" "nav nav";
+      top:0px;
+    }
+    .Nav {
+      z-index: 999;
+      grid-template-rows: repeat(6, auto);
+      grid-template-columns: none;
+      grid-row-gap: 20px;
+      padding: 30px 0 30px;
+      background: rgb(10 34 61 / 84%);
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+    .Burger {
+      display: inline;
+    }
+    .phone{
+        text-decoration: none;
+        display: inline;
+        align-items: center;
+        text-align: center;
+        color: white;
+        font-weight: normal;
+        padding:20px;
+        font-size: 30px;
+    }
+    .phone span{
+        color: #f84c50;
+    }
+  }
+  
+  .NavAnimation-enter {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  .NavAnimation-enter-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 350ms, transform 350ms;
+  }
+  .NavAnimation-exit {
+    opacity: 1;
+  }
+  .NavAnimation-exit-active {
+    opacity: 0;
+    transform: scale(0.5);
+    transition: opacity 350ms, transform 350ms;
+  }
+  
+  .last{
+    cursor: pointer;
+  }

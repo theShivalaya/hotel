@@ -1,0 +1,105 @@
+.otheractivities{
+    width: 100%;
+    background: linear-gradient(96.7deg, #61ECFF 2.72%, #718AE3 50.06%, #8110C7 98.79%);
+}
+.othcontainer{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding:20px 0px;
+    background: transparent;
+    margin: auto;
+    justify-content: flex-start;
+}
+.photogallery{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 80px;
+    justify-content: space-between;
+}
+.firstp{
+    height: 255px;
+    width: 255px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    background: url('../imgs/otheractivities/firstcard.jpg');
+}
+.secondp{
+    height: 255px;
+    width: 255px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    background: url('../imgs/otheractivities/secondcard.jpg');
+}
+.thirdp{
+    height: 255px;
+    width: 255px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    background: url('../imgs/otheractivities/thirdcard.jpg');
+}.fourthp{
+    height: 255px;
+    width: 255px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    background: url('../imgs/otheractivities/fourthcard.jpg');
+}
+.innerfirstp,.innersecondp,.innerthirdp,.innerfourthp{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%);
+}
+.innerfirstp>span,.innersecondp>span,.innerthirdp>span,.innerfourthp>span{
+    margin:20px;
+    color: white;
+    font-family: 'Mulish',sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-style: 16px;
+}
+.innerfirstp>.othbtn,.innersecondp>.othbtn,.innerthirdp>.othbtn,.innerfourthp>.othbtn{
+    margin:20px;
+    margin-top: 15px;
+    width: 100px;
+    background: #EC1F46;
+    outline: none;
+    border: none;
+    padding:10px 10px !important;
+    border-radius: 10px;
+    color: #fff;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    box-sizing: unset;
+    cursor: pointer;
+}
+
+.othacthead{
+    display: flex;
+    text-align: start;
+    text-transform: uppercase;
+    font-family: 'Mulish',sans-serif;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+   
+}
+@media (max-width: 700px) {
+    .photogallery{
+        flex-direction: column;
+        margin: auto;
+    }
+    .firstp,.secondp,.thirdp,.fourthp{
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .othacthead{
+        margin: auto;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+}

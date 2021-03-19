@@ -1,0 +1,26 @@
+.hreview{
+    height:450px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: relative;
+    background: rgba(245, 250, 254, 1);
+    margin-bottom: 50px;
+}
+.hreviewinfo{
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'Mulish',sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+@media (max-width: 700px) {
+    .hreviewinfo {
+        width: 90%;
+        margin:auto;
+    }  
+    .hreview{
+        height:620px;
+        padding-top: 40px;
+    }
+}

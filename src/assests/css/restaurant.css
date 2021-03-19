@@ -1,0 +1,81 @@
+.restaurant{
+    position: relative;
+    top:80px; 
+    padding: 5%;
+    margin-bottom: 220px;
+    display: flex;
+    flex-direction: column;
+}
+.firstrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.secondrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.thirdrow{
+    display: flex;
+    flex-direction: row;
+    margin: 25px;
+    text-align: justify;
+}
+
+.secondrow >img {
+    margin: 25px;
+    border-radius: 10px;
+    transition: all .3s ease-in-out;
+}
+ .firstrow>img{
+     margin-right:10px;
+     border-radius: 10px;
+     margin-bottom: 20px;
+     transition: all .3s ease-in-out;
+ }
+ .photocontent{
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: 400;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+ }
+ .photocontent >span{
+     display: block
+ }
+ .red{
+     color: #EC1F46;
+ }
+ .secondrow >img:hover,.thirdrow >img:hover, .fourthrow >img:hover, .firstrow>img:hover{
+     transform: scale(1.1);
+ }
+@media (max-width: 700px) {
+    .restaurant{
+        top:90px;
+        margin-bottom:150px ;
+    }
+    .firstrow,.secondrow,.thirdrow,.fourthrow{
+        display: block;
+    }
+    .firstrow >img {
+       display: none;
+    }
+    .secondrow >img,.thirdrow >img, .fourthrow >img {
+       margin: auto;
+       width: 90vw;
+       margin-top:15px;
+    }
+    .thirdrow{
+        padding-top: 20px;
+        margin: auto;
+        text-align: justify;
+    }
+    .photocontent{
+        margin-left: auto;
+    }
+
+}

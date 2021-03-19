@@ -1,0 +1,314 @@
+.invoice-box {
+    max-width: 80%;
+    margin: auto;
+    display: none;
+    margin-bottom: 50px;
+    margin-top:50px;
+    padding: 30px;
+    border: 2px solid #333;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, .15); */
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+    color: #555;
+}
+
+.invoice-box table {
+    width: 100%;
+    line-height: inherit;
+    text-align: left;
+}
+
+.invoice-box table td {
+    padding: 5px;
+    vertical-align: top;
+}
+
+.invoice-box table tr td:nth-child(2) {
+    text-align: right;
+}
+
+.invoice-box table tr.top table td {
+    padding-bottom: 20px;
+}
+
+.invoice-box table tr.top table td.title {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 35px;
+    line-height: 45px;
+    color: #333;
+}
+
+.invoice-box table tr.information table td {
+    padding-bottom: 40px;
+}
+
+.invoice-box table tr.heading1 td {
+    background: #eee;
+    /* border-bottom: 1px solid #ddd; */
+    padding-top:10px;
+    font-weight: bold;
+}
+.innerTable thead td{
+    background: #eee !important;
+    border:2px solid rgb(3, 3, 3) ;
+}
+.invoice-box table tr.details td {
+    padding-bottom: 20px;
+}
+.trtdfirst{
+    border-left:2px solid rgb(3, 3, 3) !important;
+} 
+.trtdlast{
+    border-right:2px solid rgb(3, 3, 3) !important;
+}
+.innerTable{
+    border-bottom:2px solid rgb(3, 3, 3) !important;
+
+}
+/* .invoice-box table tr.item td{
+    border-bottom: 1px solid #eee;
+} */
+.innerTable tr >td{
+    text-align: center !important;
+   
+    border-right: 0px;
+}
+.lastTd{
+    border-right: 2px solid rgb(3, 3, 3) !important;
+}
+.invoice-box table tr.item.last td {
+    border-bottom: none;
+}
+.heading1 >td{
+    padding: 0px !important;
+}
+.innerTable{
+    width: 100% !important;
+    border-spacing: 0px !important;
+}
+
+.invoice-box table tr.total td:nth-child(2) {
+    border-top: 2px solid #eee;
+    font-weight: bold;
+}
+
+.paymentContents tr >td{ 
+    text-align: center !important;
+}
+.billTableAmount1{
+    border-left:2px solid rgb(3, 3, 3) !important;
+    border-top:2px solid rgb(3, 3, 3) !important;
+    text-align: right !important;
+}
+.billTableAmount2{
+    border-left:2px solid rgb(3, 3, 3) !important;
+    border-top:2px solid rgb(3, 3, 3) !important;
+}.LastbillTableRow{
+    margin-top: 50px
+}
+
+.guestListBill{
+    width: 98%;
+    padding:5px;
+    display: flex;
+    flex-direction: row;
+}
+.guestListBill1{
+    text-align:left;
+    width: 50%;
+}
+.guestListBill11{
+    font-size:18px;
+    font-weight: bold;
+}
+.guestListBill2{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    font-size: 16px;
+    font-weight: bold;
+}
+.paymentOuterContainer{
+    display: flex;
+    width:80%;
+    margin: auto;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);  */
+    padding:20px;
+    border-radius: 8px;
+    font-family: 'Mulish',sans-serif;
+    font-size: 18px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #eee;
+    border: 1px solid gray;
+}
+
+.paymentOuterContainer1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.paymentOuterContainer11{
+    display: flex;
+    flex-direction: row;
+}
+.paymentBookText1{
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Mulish',sans-serif;
+    color: #27ae60;
+    min-height: 90px;
+    display: flex;
+    align-items: center;
+}
+.paymentBookText3{
+    font-size: 16px;
+    font-family: 'Mulish',sans-serif;
+    color: gray;
+    text-align: right;
+}
+.paymentBookText4{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Mulish',sans-serif;
+}
+.paymentBookText5{
+    text-align: right;
+    margin-top: 10px;
+    color: gray;
+}
+.paymentBookIconTick{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.paymentBookIconTick>img{
+    width: 90px
+}
+.paymentOuterContainer121{
+    background: #fff;
+    border:1px dashed grey;
+    border-radius: 8px;
+    padding:10px;
+}
+.paymentOuterContainer2{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 96%;
+    background: #fff;
+    border-radius:10px ;
+    padding:2%;
+    border: 1px dashed gray;
+}
+.paymentOuterContainer21{
+    width: 60%;
+    text-align: justify;
+    color: #4e4d4d;
+    font-weight: bold;
+}
+.paymentOuterContainer22{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.recieptGenerator{
+    color: #fff;
+    background: #27ae60;
+    padding:7px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.paymentBookPrintIcon{
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+    cursor: pointer;;
+}
+.paymentBookPrintIcon>img{
+    width:40px;
+}
+@media (max-width: 700px) {
+    .upperHeaderPayment{
+        display: block  !important;
+
+    }
+    .paymentOuterContainer1{
+        flex-direction: column;
+    }
+    .paymentBookText1{
+        font-size: 20px;
+        min-height: 40px;
+    }
+    .paymentBookIconTick>img{
+        width: 40px
+    }
+    .paymentOuterContainer121 {
+        margin-top: 20px;
+    }
+    .paymentBookText3{
+        font-size: 12px;
+        text-align:center;
+    }
+    .paymentBookText4{
+        font-size: 20px;
+        text-align:center;
+    }
+    .paymentOuterContainer2 {
+        margin-top: 20px;
+        flex-direction: column;
+       
+    }
+    .paymentOuterContainer21 {
+        width: 96%;
+        font-size: 16px;
+        padding: 2%;
+    }
+    .paymentOuterContainer22{
+        justify-content: center;
+        margin-top:5px;
+    }
+}
+
+/** RTL **/
+.rtl {
+    direction: rtl;
+    font-family: Tahoma, 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+}
+
+.rtl table {
+    text-align: right;
+}
+
+.rtl table tr td:nth-child(2) {
+    text-align: left;
+}
+@page { size: auto;  margin: 0mm; }
+@media print { 
+    .invoice-box{
+        display: block;
+    }
+    #contactus{
+        display: none  !important;
+    }
+    .upperHeaderPayment{
+        display: none !important;
+    }
+    .recieptGenerator{
+        display: none !important;
+    }
+    .paymentOuterContainer{
+        display: none !important;
+    }
+}

@@ -1,0 +1,76 @@
+.reviewCard{
+    display:flex;
+    position: relative;
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 325px;
+    background: transparent;
+    width: 60%;
+    margin: auto;
+}
+.cardPhoto{
+    width: 90px;
+    display: flex;
+    height: 90px;
+    border-radius: 50%;
+    background: url("../imgs/review/first.jpg");
+    position: absolute;
+    top:0px;
+    z-index: 10;
+}
+.LowerContainer{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    padding:60px;
+    justify-content: flex-start;
+    align-items: center;
+    top:45px; 
+    width: 80%;
+    background-color: #fff; 
+    z-index: 1;
+    border-radius: 8px;
+    max-height: 330px;
+}
+.reviewStars>img{
+    height: 12px;
+    margin-right: 2px;
+}
+.reviewText{
+    margin-top: 15px;
+    margin-bottom: 3px !important;
+}
+.LowerContainer>div{
+    margin-bottom: 10px;
+    font-family: 'Mulish',sans-serif;
+    font-size: 12px;
+}
+.reviewDate{
+    margin-bottom: 3px !important;
+}
+.reviewName{
+    color: rgba(236, 31, 70, 1);
+    font-weight: bold;
+}
+.reviewText{
+    text-align: justify;
+}
+@media (max-width: 700px) {
+
+    .reviewCard{
+        margin-top: 50px;
+        height: 500px;
+    }
+    .LowerContainer{
+        max-height: 430px;
+        padding:40px;
+        padding-bottom: 30px;
+    }
+    .reviewName{
+       margin-top: 20px;
+    }
+
+
+}
