@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.c356b5ae.chunk.css",
-    "main.js": "/static/js/main.b9fff755.chunk.js",
-    "main.js.map": "/static/js/main.b9fff755.chunk.js.map",
+    "main.css": "/static/css/main.d46a8c68.chunk.css",
+    "main.js": "/static/js/main.6b7b79a2.chunk.js",
+    "main.js.map": "/static/js/main.6b7b79a2.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d03341e2.js",
     "runtime-main.js.map": "/static/js/runtime-main.d03341e2.js.map",
     "static/css/2.acc986e7.chunk.css": "/static/css/2.acc986e7.chunk.css",
@@ -16,7 +16,7 @@
     "static/js/5.87943551.chunk.js.map": "/static/js/5.87943551.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.acc986e7.chunk.css.map": "/static/css/2.acc986e7.chunk.css.map",
-    "static/css/main.c356b5ae.chunk.css.map": "/static/css/main.c356b5ae.chunk.css.map",
+    "static/css/main.d46a8c68.chunk.css.map": "/static/css/main.d46a8c68.chunk.css.map",
     "static/js/2.2245d107.chunk.js.LICENSE.txt": "/static/js/2.2245d107.chunk.js.LICENSE.txt",
     "static/js/3.e02e380f.chunk.js.LICENSE.txt": "/static/js/3.e02e380f.chunk.js.LICENSE.txt",
     "static/js/4.cdbbff47.chunk.js.LICENSE.txt": "/static/js/4.cdbbff47.chunk.js.LICENSE.txt",
@@ -48,11 +48,12 @@
     "static/media/roombook.59f8fa7c.svg": "/static/media/roombook.59f8fa7c.svg",
     "static/media/star.733a7e80.svg": "/static/media/star.733a7e80.svg",
     "static/media/tea.d4443c31.svg": "/static/media/tea.d4443c31.svg",
+    "static/media/personreview.css": "/static/media/third.0b25b8d4.JPG",
     "static/media/time.93b67a26.svg": "/static/media/time.93b67a26.svg",
     "static/media/tv.ef83df9a.svg": "/static/media/tv.ef83df9a.svg",
     "static/media/user.1bcaebd5.svg": "/static/media/user.1bcaebd5.svg",
     "static/media/visa.3dec59e4.svg": "/static/media/visa.3dec59e4.svg",
-    "static/media/vision.e1e6c1d1.svg": "/static/media/vision.e1e6c1d1.svg",
+    "static/media/vision.9699357e.svg": "/static/media/vision.9699357e.svg",
     "static/media/wardrobe.a4576b7f.svg": "/static/media/wardrobe.a4576b7f.svg",
     "static/media/wifi.bc698463.svg": "/static/media/wifi.bc698463.svg"
   },
@@ -60,7 +61,7 @@
     "static/js/runtime-main.d03341e2.js",
     "static/css/2.acc986e7.chunk.css",
     "static/js/2.2245d107.chunk.js",
-    "static/css/main.c356b5ae.chunk.css",
-    "static/js/main.b9fff755.chunk.js"
+    "static/css/main.d46a8c68.chunk.css",
+    "static/js/main.6b7b79a2.chunk.js"
   ]
 }
