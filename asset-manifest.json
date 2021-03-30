@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.03554678.chunk.css",
-    "main.js": "/static/js/main.21ccce74.chunk.js",
-    "main.js.map": "/static/js/main.21ccce74.chunk.js.map",
+    "main.js": "/static/js/main.f6851f6c.chunk.js",
+    "main.js.map": "/static/js/main.f6851f6c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d0f7e2b1.js",
     "runtime-main.js.map": "/static/js/runtime-main.d0f7e2b1.js.map",
     "static/css/2.acc986e7.chunk.css": "/static/css/2.acc986e7.chunk.css",
-    "static/js/2.842b2ffb.chunk.js": "/static/js/2.842b2ffb.chunk.js",
-    "static/js/2.842b2ffb.chunk.js.map": "/static/js/2.842b2ffb.chunk.js.map",
+    "static/js/2.d0f7234b.chunk.js": "/static/js/2.d0f7234b.chunk.js",
+    "static/js/2.d0f7234b.chunk.js.map": "/static/js/2.d0f7234b.chunk.js.map",
     "static/js/3.a07b9005.chunk.js": "/static/js/3.a07b9005.chunk.js",
     "static/js/3.a07b9005.chunk.js.map": "/static/js/3.a07b9005.chunk.js.map",
     "static/js/4.124cb7f7.chunk.js": "/static/js/4.124cb7f7.chunk.js",
@@ -17,10 +17,13 @@
     "index.html": "/index.html",
     "static/css/2.acc986e7.chunk.css.map": "/static/css/2.acc986e7.chunk.css.map",
     "static/css/main.03554678.chunk.css.map": "/static/css/main.03554678.chunk.css.map",
-    "static/js/2.842b2ffb.chunk.js.LICENSE.txt": "/static/js/2.842b2ffb.chunk.js.LICENSE.txt",
+    "static/js/2.d0f7234b.chunk.js.LICENSE.txt": "/static/js/2.d0f7234b.chunk.js.LICENSE.txt",
     "static/js/3.a07b9005.chunk.js.LICENSE.txt": "/static/js/3.a07b9005.chunk.js.LICENSE.txt",
     "static/js/4.124cb7f7.chunk.js.LICENSE.txt": "/static/js/4.124cb7f7.chunk.js.LICENSE.txt",
+    "static/media/Deluxe.a982eeee.JPG": "/static/media/Deluxe.a982eeee.JPG",
     "static/media/IMG-20210130-WA0027.f51a94b6.jpg": "/static/media/IMG-20210130-WA0027.f51a94b6.jpg",
+    "static/media/MiniS.0dd76b81.jpg": "/static/media/MiniS.0dd76b81.jpg",
+    "static/media/RoyalS.f7f16927.jpg": "/static/media/RoyalS.f7f16927.jpg",
     "static/media/personreview.css": "/static/media/third.0b25b8d4.JPG",
     "static/media/bhim-upi.5495c11e.svg": "/static/media/bhim-upi.5495c11e.svg",
     "static/media/breakfast.8fd97f0a.svg": "/static/media/breakfast.8fd97f0a.svg",
@@ -76,8 +79,8 @@
   "entrypoints": [
     "static/js/runtime-main.d0f7e2b1.js",
     "static/css/2.acc986e7.chunk.css",
-    "static/js/2.842b2ffb.chunk.js",
+    "static/js/2.d0f7234b.chunk.js",
     "static/css/main.03554678.chunk.css",
-    "static/js/main.21ccce74.chunk.js"
+    "static/js/main.f6851f6c.chunk.js"
   ]
 }
